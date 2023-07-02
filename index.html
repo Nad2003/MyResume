@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="topbanner">
+        <div class="banner-text">Hello my name is Nadeem</div>
+    </div>
+    <nav>
+        <div class="container main-nav flex">
+            <div class="logo">
+                <img src="/images/asset 20.png" alt="nadeem">
+            </div>
+            <div class="links">
+                <ul class="flex">
+                    <li><a href="#"class="btn">Email</a></li>
+                    <li><a href="#"class="btn">contact</a></li>
+                    <li><a href="#"class="btn">linkdin</a></li>
+                   <li><div class="dropdown">
+                    <button class="drop-btn">Project</button>
+                    <div class="content">
+                        <a href="#">clc</a>
+                        <a href="#">colorgen</a>
+                        <a href="#">new web</a>
+                    </div>
+                   </div></li>
+                    
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="mysec-container ">
+<div class="small-bold-text">
+    <p> HELLO my name is <strong><i>Nadeem</i></strong> and i am a <i>computer Science & Engineering </i>
+    student in <stront>AKTU.</stront> <br>i am currontly working on </p>
+    <span id="element"></span>
+    <br>
+    <button class="drop-btn btn1 "><a href="#" class="btn1">Lets Work</a></button>
+</div>
+    <img src="/images/asset 18.png" alt="img" class="side-img">
+
+    </div>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+<div class="company flex">
+    <img src="/images/asset 7.png" alt="box">
+    <img src="/images/asset 6.png" alt="airyable">
+    <img src="/images/asset 5.png" alt="taskrabbit">
+    <img src="/images/asset 4.png" alt="goole">
+    <img src="/images/asset 3.png" alt="mazon">
+</div>
+<div class="txt">
+    <p>Thes all are my dream company<br>and i want to be heir in this company .</p>
+    <br>
+    <p>Lorem ipsum dolor sit amet  adipisicing elit. Aut, dicta?</p>
+</div>
+<!-- first about -->
+<div class="mysec-container about">
+<div class="abouttxt">
+    <p>Hello i am a <i>C.S.E</i></p><p> and i have no issue working with team .</p> So you can assing me team work and i have a good ability to manage a team 
+</p> <p><i> i am working with  most team project's like making library softwair</i> </p>
+</div>
+    
+    <img class="aboutimg" src="/images/asset 2.jpeg" alt="mang">
+</div>
+<!-- end first -->
+
+<div class="mysec-container about">
+    <img class="aboutimg" src="/images/asset 21.png" alt="mang">
+    <div class="abouttxt">
+        <p><h2>skills</h2></p>
+        <p> i am very well knowledge of <i><strong>C LANGUAGE and DATA STRUCTOR</strong></i></p>
+        <P>i have well knowlwdge of <strong>JAVA PYTHON </strong></P>
+        <i> and i am curtently working on web development</i>
+       <p> <i> i am done my 102 comprative programming quiz on leetcode</i></p>
+    </div>
+    </div>
+    <!-- second end  -->
+    <div class="mysec-container about">
+        <div class="abouttxt">
+       <h2>Projects</h2>
+       <p>I am built a simple <strong>calculator</strong> </p>
+       <p>I am built a simple <strong>color chouser with javascript</strong></p>
+       <p>I am built a <strong>prifix to postfix</strong>  converter</p>
+       <p>I am built a <strong> postfix to prifix</strong>converter</p>
+        </div>
+            
+            <img class="aboutimg" src="/images/asset 24.png" alt="mang">
+        </div>
+<!-- third end -->
+<!-- faq section -->
+<h3 class="top">F A Q</h3>
+<div class="faq">
+    <div class="accordian">
+        <div class="question">
+            <h4>What is your full name </h4>
+            <h6 class="icon">🔽</h6>
+        </div>
+        <div class="answer">My full name is Mohd. Nadeem. And my father name is Mr. Mehrajoodeen. My cast is OBC.  I am belong to Islam relegion .And i am INDIAN </div>
+    </div>
+    <br>
+    <div class="accordian">
+        <div class="question">
+            <h4>How much is your Education</h4>
+            <h6 class="icon">🔽</h6>
+        </div>
+        <div class="answer">I am B.tech [CSE] 3<sup>rd</sup> year student .And i am curruntly working on Webdevelopment.and java core.I am Study in I.T.M college Meerut.</div>
+    </div>
+    <br>
+    <div class="accordian">
+        <div class="question">
+            <h4>What is your Hobbies</h4>
+            <h6 class="icon ">🔽</h6>
+        </div>
+        <div class="answer"><ul>
+            <li>Reading Good Books</li>
+            <li>Cycling</li>
+            <li>Coding</li>
+            <li>Gaming</li>
+        </ul></div>
+    </div>
+</div>
+
+
+</body>
+</html>
+<script>
+const accordian=document.querySelectorAll('.accordian');
+accordian.forEach(accordian => {
+    const icon=accordian.querySelector('.icon');
+    const answer=accordian.querySelector('.answer');
+    accordian.addEventListener('click', () => {
+        icon.classList.toggle('active');
+        answer.classList.toggle('active');
+    })
+})
+
+
+
+
+    var typed = new Typed('#element', {
+      strings: ['<i>Webdevelopment</i> .', '&amp; Data Structor using java.','&amp; Python.'],
+      typeSpeed: 50,
+    });
+  </script>
